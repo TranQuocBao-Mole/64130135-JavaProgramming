@@ -1,0 +1,16 @@
+package bai6_OOP_Interface;
+
+public class App {
+	public static void main(String[] args) {
+		Cats a = new Cats("Meo tam the",false);
+		Dogs b = new Dogs("Bull",true);
+		System.out.println(a.toString());
+		System.out.println(b.toString());
+		
+		Cats a1 = new Cats("Meo tam the",false);
+		Dogs b1 = new Dogs("Bull",true);
+		System.out.println(a1.toString());
+		System.out.println(b1.toString());
+
+	}
+}

@@ -1,0 +1,10 @@
+package oop_citizen;
+
+public class Citizen {
+	private String id;
+	private String name;
+	private string gender;
+	private string nation;
+	private 
+
+}
