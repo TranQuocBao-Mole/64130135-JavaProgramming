@@ -1,5 +1,5 @@
 package Student;
 
-public class IStudent {
-
+public interface IStudent {
+	void display();
 }
