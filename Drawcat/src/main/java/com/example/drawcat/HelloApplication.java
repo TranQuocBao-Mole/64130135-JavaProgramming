@@ -14,9 +14,14 @@ public class HelloApplication extends JPanel {
         // Vẽ thân hình tam giác lớn
         Polygon body = new Polygon();
         body.addPoint(150, 50);
-        body.addPoint(50, 250);
-        body.addPoint(250, 250);
+        body.addPoint(50, 170);
+        body.addPoint(250, 170);
         g2d.draw(body);
+
+        // Vẽ thân hình tròn
+
+        Ellipse2D.Double lowerbody = new Ellipse2D.Double(100, 160, 100, 100);
+        g2d.draw(lowerbody);
 
         // Vẽ tai
         Polygon ear1 = new Polygon();
@@ -33,14 +38,14 @@ public class HelloApplication extends JPanel {
 
         // Vẽ mũi
         Polygon nose = new Polygon();
-        nose.addPoint(150, 150);
-        nose.addPoint(140, 170);
-        nose.addPoint(160, 170);
+        nose.addPoint(150, 130);
+        nose.addPoint(140, 120);
+        nose.addPoint(160, 120);
         g2d.draw(nose);
 
         // Vẽ chân
-        Ellipse2D.Double leg1 = new Ellipse2D.Double(90, 250, 40, 40);
-        Ellipse2D.Double leg2 = new Ellipse2D.Double(170, 250, 40, 40);
+        Ellipse2D.Double leg1 = new Ellipse2D.Double(90, 240, 40, 40);
+        Ellipse2D.Double leg2 = new Ellipse2D.Double(170, 240, 40, 40);
         g2d.draw(leg1);
         g2d.draw(leg2);
     }
